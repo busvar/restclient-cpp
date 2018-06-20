@@ -212,6 +212,12 @@ RestClient::Response res = conn->get("/get");
 ## Dependencies
 - [libcurl][]
 
+## Debian 8.10 dependencies
+- aptitude install build-essential
+- aptitude install dh-autoreconf
+- download and make libcurl
+- git clone this repo
+
 ## Installation
 There are some packages available for Linux on [packagecloud][packagecloud].
 And for OSX you can get it from the mrtazz/oss homebrew tap:
